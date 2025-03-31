@@ -143,7 +143,7 @@ const Index = () => {
               <span className="text-xl font-bold">
                 <span className="text-fintrack-green">Fin</span>Track
               </span>
-              <p className="mt-2">© 2023 FinTrack. All rights reserved.</p>
+              <p className="mt-2">© 2025 FinTrack. All rights reserved.</p>
             </div>
             <div className="flex gap-8">
               <a href="#" className="hover:text-white">
