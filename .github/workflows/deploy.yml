@@ -27,6 +27,9 @@ jobs:
       - name: Install Rollup
         run: npm install rollup
 
+      - name: Install SWC Dependencies
+        run: npm install @swc/core @swc/cli
+
       - name: Rebuild Native Modules
         run: npm rebuild
 
