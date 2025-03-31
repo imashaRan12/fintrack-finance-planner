@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { User, Mail, Lock, UserPlus, Github } from "lucide-react";
+import logo from "@/assets/images/logo.png";
 
 const SignUp = () => {
   const [name, setName] = useState("");
@@ -53,7 +54,8 @@ const SignUp = () => {
     <div className="min-h-screen flex items-center justify-center p-4 bg-fintrack-dark">
       <Card className="w-full max-w-md bg-fintrack-dark-lighter border-fintrack-dark-lighter">
         <CardHeader className="space-y-2 text-center">
-          <CardTitle className="text-2xl font-bold flex justify-center items-center gap-2">
+          <CardTitle className="text-2xl font-bold flex justify-center items-center gap-1">
+            <img src={logo} alt="FinTrack Logo" className="h-10" />
             <span className="text-fintrack-green">Fin</span>Track
           </CardTitle>
           <CardDescription>

@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
+import logo from "@/assets/images/logo.png";
 
 const DashboardLayout = () => {
   const { user, logout } = useAuth();
@@ -59,6 +60,7 @@ const DashboardLayout = () => {
               <Menu className="h-6 w-6" />
             )}
           </Button>
+          <img src={logo} alt="FinTrack Logo" className="h-8" />
           <h1 className="text-xl font-bold">
             <span className="text-fintrack-green">Fin</span>Track
           </h1>
@@ -80,6 +82,7 @@ const DashboardLayout = () => {
             } lg:relative lg:translate-x-0`}
         >
           <div className="p-6 hidden lg:flex items-center">
+            <img src={logo} alt="FinTrack Logo" className="h-8" />
             <h1 className="text-xl font-bold">
               <span className="text-fintrack-green">Fin</span>Track
             </h1>

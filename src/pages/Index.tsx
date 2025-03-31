@@ -7,6 +7,7 @@ import {
   TrendingUp,
   ChevronRight,
 } from "lucide-react";
+import logo from "@/assets/images/logo.png";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       {/* Hero Section */}
       <header className="py-6 px-4 md:px-10 flex justify-between items-center">
         <div className="flex items-center gap-2">
+          <img src={logo} alt="FinTrack Logo" className="h-12" />
           <span className="text-2xl font-bold">
             <span className="text-fintrack-green">Fin</span>Track
           </span>
