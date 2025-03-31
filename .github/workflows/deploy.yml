@@ -27,6 +27,9 @@ jobs:
       - name: Install Rollup
         run: npm install rollup
 
+      - name: Rebuild Native Modules
+        run: npm rebuild
+
       - name: Build Project
         run: npm run build
 
