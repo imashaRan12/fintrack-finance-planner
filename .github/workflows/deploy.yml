@@ -25,7 +25,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Install Rollup
-        run: npm install rollup
+        run: npm install rollup --legacy-peer-deps
 
       - name: Install SWC Dependencies
         run: npm install @swc/core @swc/cli
