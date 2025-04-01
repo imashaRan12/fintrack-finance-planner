@@ -28,7 +28,7 @@ jobs:
         run: npm install rollup --legacy-peer-deps
 
       - name: Install SWC Dependencies
-        run: npm install @swc/core @swc/cli
+        run: npm install @swc/core @swc/cli --legacy-peer-deps
 
       - name: Rebuild Native Modules
         run: npm rebuild
