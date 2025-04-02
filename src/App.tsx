@@ -13,6 +13,7 @@ import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import PlanTrack from "./pages/PlanTrack";
 import Calculators from "./pages/Calculators";
+import Chatbot from "./pages/Chatbot";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -42,6 +43,7 @@ const App = () => (
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/plan" element={<PlanTrack />} />
               <Route path="/calculators" element={<Calculators />} />
+              <Route path="/chatbot" element={<Chatbot />} />
             </Route>
 
             {/* Catch-all route */}

@@ -10,6 +10,7 @@ import {
   User,
   Menu,
   X,
+  Bot,
 } from "lucide-react";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
@@ -41,6 +42,11 @@ const DashboardLayout = () => {
       name: "Calculators",
       path: "/calculators",
       icon: <Calculator className="h-5 w-5" />,
+    },
+    {
+      name: "Chatbot",
+      path: "/chatbot",
+      icon: <Bot className="h-5 w-5" />,
     },
   ];
 

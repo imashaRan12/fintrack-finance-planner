@@ -109,8 +109,8 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Financial Insights</h3>
                 <p className="text-gray-400">
-                  Get insights and recommendations to improve your financial
-                  situation.
+                  Using our chatbot get insights and recommendations to improve
+                  your financial situation.
                 </p>
               </div>
             </div>
