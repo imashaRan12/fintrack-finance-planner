@@ -24,8 +24,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci --legacy-peer-deps
 
+      - name: Install Rollup Manually
+        run: npm install --save-dev rollup @rollup/rollup-linux-x64-gnu
+
       - name: Lint
-        run: npm run lint || echo "Linting skipped"
+        run: npm run lint || echo "Linting warnings, but proceeding..."
 
       - name: Build
         run: npm run build

@@ -21,17 +21,14 @@ jobs:
           node-version: 18
           cache: "npm"
 
-      - name: Clean npm cache
-        run: npm cache clean --force
-
       - name: Install Dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: Install Rollup
-        run: npm install rollup --legacy-peer-deps
+        run: npm install rollup
 
       - name: Install SWC Dependencies
-        run: npm install @swc/core @swc/cli --legacy-peer-deps
+        run: npm install @swc/core @swc/cli
 
       - name: Rebuild Native Modules
         run: npm rebuild
