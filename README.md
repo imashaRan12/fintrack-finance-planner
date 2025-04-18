@@ -1,69 +1,124 @@
-# Welcome to your Lovable project
+<div align="center">
+   <h1 align="center">Fintrack - Finance Planner</h1>
+   Fintrack is a modern finance planning application designed to help users manage their finances effectively. With features like expense tracking, budget planning, and financial insights, Fintrack is your go-to tool for financial management. It also includes powerful calculator tools for loans, leasing, mortgages, and taxes, as well as an intelligent finance chatbot to assist with your queries and provide personalized financial advice.
+   <br />
+  <br />
+      <img src="./public/dashboard.png" alt="Project Banner" width="1000">
+  <br />
 
-## Project info
+  <div>
+    <img src="https://img.shields.io/badge/Vite-white?style=for-the-badge&logo=vite&logoColor=FFF600&color=EA80FC
+    " alt="vite" />
+    <img src="https://img.shields.io/badge/Vercel-White?style=for-the-badge&logo=vercel&logoColor=FFFFFF&color=000000
+    " alt="vercel" />
+    <img src="https://img.shields.io/badge/Firebase-White?style=for-the-badge&logo=Firebase&logoColor=FFF600&color=FF0000
+    " alt="firebase" />
+  </div>
+  <br />
+  
+</div>
 
-**URL**: https://lovable.dev/projects/fdc4c1b9-682d-4fbb-b369-d28b3e0f2f67
+## 🚀 Getting Started
 
-## How can I edit this code?
+### 1. Clone the Repository
 
-There are several ways of editing your application.
+First, ensure you have [Git](https://git-scm.com/) installed. Then, clone the repository:
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/fdc4c1b9-682d-4fbb-b369-d28b3e0f2f67) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/your-username/fintrack-finance-planner.git
+cd fintrack-finance-planner
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install Dependencies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Ensure you have [Node.js](https://nodejs.org/) installed. Then, run:
 
-**Use GitHub Codespaces**
+```bash
+npm install
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 3. Set Up API Keys
 
-## What technologies are used for this project?
+Fintrack uses Firebase and Gemini APIs. Follow these steps to configure them:
 
-This project is built with .
+#### Firebase
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Go to [Firebase Console](https://console.firebase.google.com/).
+2. Create a new project and generate a Web API key.
+3. Add the Firebase configuration to `.env`:
+   ```env
+   REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your-firebase-auth-domain
+   REACT_APP_FIREBASE_PROJECT_ID=your-firebase-project-id
+   ```
 
-## How can I deploy this project?
+#### Gemini
 
-Simply open [Lovable](https://lovable.dev/projects/fdc4c1b9-682d-4fbb-b369-d28b3e0f2f67) and click on Share -> Publish.
+1. Sign up or log in to [Gemini](https://www.gemini.com/).
+2. Generate an API key.
+3. Add the Gemini configuration to `.env`:
+   ```env
+   REACT_APP_GEMINI_API_KEY=your-gemini-api-key
+   REACT_APP_GEMINI_API_SECRET=your-gemini-api-secret
+   ```
 
-## I want to use a custom domain - is that possible?
+### 4. Run the Application
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Start the development server:
+
+```bash
+npm start
+```
+
+Visit `http://localhost:3000` to view the app.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend**: React, TypeScript
+- **Backend**: Node.js, Firebase
+- **APIs**: Firebase Authentication, Gemini API
+- **Deployment**: Vercel
+
+---
+
+## 🌐 Deployment
+
+Fintrack is deployed on [Vercel](https://vercel.com/) and accessible via your custom domain:
+[https://your-custom-domain.com](https://your-custom-domain.com)
+
+To deploy updates:
+
+1. Push changes to the `main` branch.
+2. Vercel will automatically build and deploy the latest version.
+
+---
+
+## 📚 Documentation
+
+All project documentation is available in the `my-docs` directory, powered by [Docusaurus](https://docusaurus.io/). This includes:
+
+- **Getting Started Guide**
+- **Technical Documentation**
+- **Incident Response Playbook**
+- **Architecture Decision Records**
+
+To view the documentation locally:
+
+1. Navigate to the `my-docs` directory:
+   ```bash
+   cd my-docs
+   ```
+2. Install dependencies and start the Docusaurus server:
+   ```bash
+   npm install
+   npm start
+   ```
+3. Open `http://localhost:3000` in your browser.
+
+---
+
+## 📧 Contact
+
+For support or inquiries, email us at `imasharandima26@gmail.com`.
