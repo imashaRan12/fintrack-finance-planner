@@ -7,12 +7,9 @@
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/Vite-white?style=for-the-badge&logo=vite&logoColor=FFF600&color=EA80FC
-    " alt="vite" />
-    <img src="https://img.shields.io/badge/Vercel-White?style=for-the-badge&logo=vercel&logoColor=FFFFFF&color=000000
-    " alt="vercel" />
-    <img src="https://img.shields.io/badge/Firebase-White?style=for-the-badge&logo=Firebase&logoColor=FFF600&color=FF0000
-    " alt="firebase" />
+    <img src="https://img.shields.io/badge/Vite-white?style=for-the-badge&logo=vite&logoColor=FFF600&color=EA80FC" alt="vite" />
+    <img src="https://img.shields.io/badge/Vercel-White?style=for-the-badge&logo=vercel&logoColor=FFFFFF&color=000000" alt="vercel" />
+    <img src="https://img.shields.io/badge/Firebase-White?style=for-the-badge&logo=Firebase&logoColor=FFF600&color=FF0000" alt="firebase" />
   </div>
   <br />
   
